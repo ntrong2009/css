@@ -1,0 +1,3 @@
+- thuộc tính resize dịnh dạng cho vùng nội dung mà người dùng có thể thay đổi được kích thước
+
+- thường đi kèm với thuộc tính overflow: auto thì mới hoạt động được
