@@ -1,0 +1,19 @@
+/* #box{
+    display: -webkit-box;
+} */
+
+div{
+    display: -webkit-box;
+}
+
+div.blue{
+    background: blue;
+}
+
+div.red{
+    background: red;
+}
+
+div.yellow{
+    background: yellow;
+}
