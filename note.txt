@@ -1,0 +1,1 @@
+height: 75px: Set chiều cao cho đoạn văn bản. height = line-height * line-clamp
