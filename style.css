@@ -46,4 +46,12 @@
 
 .flex-wrap{
     flex-wrap: wrap;
+            /* wrap-reverse */
+}
+
+.flex-direction{
+    flex-direction: row;
+                /* column */
+                /* column-reverse */
+                /* row-reverse */
 }
