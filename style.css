@@ -1,0 +1,28 @@
+/* chọn mọi phần tử trên trang, đây là thủ thuật để loại bỏ margin và padding
+lời khuyên là không nên sử dụng cái này trong dự án thực tế, nó nặng css cho trình duyệt
+và không cần thiết*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* đặt style cho tất cả các phần tử mà nằm trong class container */
+.container * {
+    background: yellowgreen;
+}
+
+/* style cho những thẻ đang được click vào */
+.link a.link-1:link {
+    color: red;
+}
+
+/* style cho những thẻ đã được nhấp vào */
+.link a.link-2:visited{
+    color: purple;
+}
+
+/* áp dụng cho selector kề nó */
+.selector-plus .box-1 + .box-2{
+    background-color: sandybrown;
+}
+
