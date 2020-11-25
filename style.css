@@ -26,3 +26,8 @@ và không cần thiết*/
     background-color: sandybrown;
 }
 
+/* bộ chọn này sẽ chỉ chọn các ul mà là con trực tiếp của selector-than
+nó sẽ không chọn ul thứ 2 nằm trong li đầu tiên */
+.selector-than > ul{
+    border: 1px solid black;
+}
