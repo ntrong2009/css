@@ -28,6 +28,8 @@
     padding: 5px;
     border: 1px solid #c3c3c3;
     display: flex;
+    /* flex box là 1 kiểu dàn trang mà nó sẽ tự cân đối kích thước bên trong để hiển thị
+    trên mọi thiết bị, theo suggest thì nên sử dụng thuộc tính này trong phạm vi nhỏ */
 }
 
 .flex-demo div {
@@ -35,23 +37,61 @@
     height: 50px;
 }
 
+/* cho thành phần con bên trong container có thể full hết chiều cao và 
+rộng vốn có của nó và tất cả các thành phần con này đều được bao bọc
+và giới hạn bởi container */
+.flex-wrap{
+    flex-wrap: wrap;
+            /* wrap-reverse : đảo ngược các item*/
+}
+
+
+/* chỉ định các thành phần bên trong nằm theo chiều dọc hay ngang */
+.flex-direction{
+    flex-direction: row; /* các phần tử nằm trên cùng 1 hàng */
+                /* column : các phần tử nằm trên cùng 1 cột*/
+                /* column-reverse : các phần tử nằm trên cùng 1 cột nhưng đảo ngược*/
+                /* row-reverse : các phần tử nằm trên cùng 1 hàng nhưng đảo ngược*/
+}
+
+
+/* flex-flow là cách viết tắt của flex-direction và flex-wrap */
 .flex-flow{
     flex-flow: row wrap;
             /* row-reverse wrap */
             /* column wrap */
             /* column-reverse wrap */
-
-    /* flex-flow là cách viết tắt của flex-direction và flex-wrap */
 }
 
-.flex-wrap{
-    flex-wrap: wrap;
-            /* wrap-reverse */
+
+/* thuộc tính này dùng để sắp xếp thứ tự các item */
+.order .item1{
+    order: 1;
 }
 
-.flex-direction{
-    flex-direction: row;
-                /* column */
-                /* column-reverse */
-                /* row-reverse */
+.order .item2{
+    order: 4;
+}
+
+.order .item3{
+    order: 6;
+}
+
+.order .item4{
+    order: 5;
+}
+
+.order .item5{
+    order: 3;
+}
+
+.order .item6{
+    order: 2;
+}
+
+
+
+.align-item {
+    align-items: center /* canh giữa phần tử theo trục dọc*/;
+                /* flex-end : đẩy các phần tử xuống dưới cùng của trục dọc*/
 }
