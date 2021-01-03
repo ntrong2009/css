@@ -1,0 +1,19 @@
+/* filter có nghĩa là lọc sáng + màu sắc, tạo ra các hiệu ứng lọc màu, biến đổi */
+
+img {
+    filter: saturate(200%);
+            /* blur(3px)  : làm nhòe ảnh (px)*/
+            /* brightness(150%) : thay đổi độ sáng (%) */
+            /* contrast(200%) : thay đổi độ tương phản (%) */
+            /* drop-shadow(5px 10px 3px gray) : đổ bóng phần tử, bóng dịch theo các tham số
+                chiều ngang x, dọc y và màu đổ bóng */
+            /* grayscale(100%) : chuyển ảnh sang màu xám */
+            /* hue-rotate(180deg) : chuyển đổi màu của ảnh theo vòng tròn màu */
+            /* invert(100%) : đổi sang màu âm bản */
+            /* opacity(0%) : độ trong suốt */
+
+}
+
+span {
+    filter: blur(3px);
+}
