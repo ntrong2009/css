@@ -1,0 +1,34 @@
+p {
+    white-space: pre-wrap;
+
+    /*  normal : 
+            + các dấu khoảng trắng liên tiếp sẽ bị gộp lại thành một 
+            + các dấu xuống dòng sẽ bị bỏ qua
+            + văn bản sẽ được xuống dòng khi cần thiết
+    */
+
+    /*  nowrap :
+            + các dấu khoảng trắng liên tiếp sẽ bị gộp lại thành một
+            + các dấu xuống dòng sẽ bị bỏ qua
+            + văn bản không bao giờ xuống dòng, nó chỉ xuống dòng khi gặp <br>
+    */
+
+    /*  pre :
+            + giữ nguyên các dấu khoảng trắng và xuống dòng
+            + văn bản chỉ được xuống dòng khi gặp dấu xuống dòng hoặc <br>
+    */
+
+    /*  pre-wrap :
+            + giữ nguyên các dấu khoảng trắng và xuống dòng
+            + văn bản sẽ xuống dòng khi cần thiết
+    */
+
+    /*  pre-line :
+            + các dấu khoảng trắng liên tiếp sẽ bị gộp lại thành một
+            + các dấu xuống dòng sẽ được giữ nguyên
+            + văn bản sẽ được xuống dòng khi cần thiết
+    */
+
+    /*  initial : sử dụng giá trị mặc định của nó (normal)
+    */
+}
